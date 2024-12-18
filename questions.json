@@ -1,0 +1,363 @@
+{
+  "heading": "Select a topic",
+  "topics": [
+    {
+      "heading": "INTRODUCTION AND BASICS",
+      "questions": [
+        {
+            "questionNo": 1,
+            "question": "What is the data type of the following variable?<br><code>i='Hello'</code>",
+            "options": ["int", "str", "float", "dict"],
+            "answer": 1
+        },
+        {
+            "questionNo": 2,
+            "question": "What is the output of the following code?<br><code>x = 42<br>print(type(x))</code>",
+            "options": ["< class 'int' >", "< class 'float' >", "< class 'str' >", "< class 'bool' >"],
+            "answer": 0
+        },
+        {
+            "questionNo": 3,
+            "question": "What is the purpose of the input() function in Python?",
+            "options": ["To print values on the screen", "To accept user input", "To convert data types", "To declare a variable"],
+            "answer": 1
+        },
+        {
+            "questionNo": 4,
+            "question": "Which of the following statements is used to write a comment in Python?",
+            "options": ["// This is a comment", "< !-- This is a comment -- >", "# This is a comment", "/* This is a comment */"],
+            "answer": 2
+        }
+    ]
+      
+    },
+    {
+      "heading": "ARITHMETIC OPERATORS",
+      "questions": [
+        {
+            "questionNo": 5,
+            "question": "What is the result of the following code?<br><code>print(10 / 3)</code>",
+            "options": ["3", "3.3333333333333335", "3.0", "Error"],
+            "answer": 1
+        },
+        {
+            "questionNo": 6,
+            "question": "What will the following code output?<br><code>print(7 % 2)</code>",
+            "options": ["1", "2", "0", "3"],
+            "answer": 0
+        },
+        {
+            "questionNo": 7,
+            "question": "Which operator is used to raise a number to the power of another number?",
+            "options": ["^", "*", "**", "//"],
+            "answer": 2
+        }
+    ]
+      
+    },
+    {
+      "heading": "RELATIONAL OPERATORS AND CONDITIONAL PROGRAMMING",
+      "questions": [
+        {
+            "questionNo": 8,
+            "question": "Which of the following is a relational operator?",
+            "options": ["and", ">=", "+", "or"],
+            "answer": 1
+        },
+        {
+            "questionNo": 9,
+            "question": "What is the result of this code?<br><code>x = 10<br>y = 5<br>print(x > y)</code>",
+            "options": ["True", "False", "None", "Error"],
+            "answer": 0
+        },
+        {
+            "questionNo": 10,
+            "question": "Which relational operator checks if two values are equal?",
+            "options": ["==", "!=", ">", "<"],
+            "answer": 0
+        },
+        {
+            "questionNo": 11,
+            "question": "What is the output of the following code?<br><code>x = 3<br>y = 4<br>if x == 3:<br>&nbsp;&nbsp;print('Equal')<br>else:<br>&nbsp;&nbsp;print('Not equal')</code>",
+            "options": ["Equal", "Not equal", "None", "Error"],
+            "answer": 0
+        }
+    ]
+    
+      
+    },{
+      "heading": "LOGICAL OPERATORS AND CONDITIONAL PROGRAMMING",
+      "questions": [
+        {
+            "questionNo": 12,
+            "question": "What will be the output of the following code?<br><code>x = True<br>y = False<br>print(x and y)</code>",
+            "options": ["True", "False", "None", "Error"],
+            "answer": 1
+        },
+        {
+            "questionNo": 13,
+            "question": "What will be the output of the following code?<br><code>x = True<br>y = False<br>print(x or y)</code>",
+            "options": ["True", "False", "None", "Error"],
+            "answer": 0
+        },
+        {
+            "questionNo": 14,
+            "question": "What will the output be for the following code?<br><code>x = 3<br>y = 5<br>print(not(x < y))</code>",
+            "options": ["True", "False", "None", "Error"],
+            "answer": 1
+        },
+        {
+            "questionNo": 15,
+            "question": "Which of the following is not a logical operator in Python?",
+            "options": ["and", "or", "not", "=="],
+            "answer": 3
+        }
+    ]
+    
+    
+      
+    },
+    {
+      "heading": "STRINGS FORMATTING",
+      "questions": [
+        {
+            "questionNo": 16,
+            "question": "What is the output of the following code?<br><code>name = 'Python'<br>print(f'Welcome to {name}!')</code>",
+            "options": ["Welcome to Python!", "Welcome to {name}!", "Welcome to 'Python'!", "Error"],
+            "answer": 0
+        },
+        {
+            "questionNo": 17,
+            "question": "Which of the following is a correct way to format a string in Python?",
+            "options": ["\"Hello, {name}\".format(name=\"John\")", "\"Hello, name\".format(name=\"John\")", "\"Hello, {0}\".format(\"John\")", "Both a and c"],
+            "answer": 3
+        },
+        {
+            "questionNo": 18,
+            "question": "What does the + operator do when used with strings?",
+            "options": ["Adds them", "Multiplies them", "Concatenates them", "Subtracts them"],
+            "answer": 2
+        }
+    ]
+     
+    },
+    {
+      "heading": "STRING METHODS",
+      "questions": [
+        
+            {
+                "questionNo": 19,
+                "question": "What does the split() method do in Python?",
+                "options": ["Joins a list of strings into a single string", "Splits a string into a list of words", "Reverses the string", "Converts a string into uppercase"],
+                "answer": 1
+            },
+            {
+                "questionNo": 20,
+                "question": "Which method is used to convert all characters of a string to uppercase?",
+                "options": ["upper()", "capitalize()", "casefold()", "lower()"],
+                "answer": 0
+            },
+            {
+                "questionNo": 21,
+                "question": "What will the following code print?<br><code>text = 'Python Programming'<br>print(text[7:12])</code>",
+                "options": ["Progr", "Progrm", "on Pr", "n Pro"],
+                "answer": 0
+            }
+        
+        
+      ]
+      
+    },
+    {
+      "heading": "FUNCTIONS",
+      "questions": [
+        {
+            "questionNo": 22,
+            "question": "What will be the output of the following function?<br><code>def add(a, b=4):<br>&nbsp;&nbsp;return a + b<br> print(add(5))</code>",
+            "options": ["5", "9", "4", "Error"],
+            "answer": 1
+        },
+        {
+            "questionNo": 23,
+            "question": "Which of the following is the correct syntax for defining a function in Python?",
+            "options": ["function func():", "def func():", "def: func()", "func():"],
+            "answer": 1
+        }
+    ]
+    
+      
+    },
+    {
+      "heading": "LOOPS",
+      "questions": [
+        {
+            "questionNo": 24,
+            "question": "What is the output of the following code?<br><code>i = 1<br>while i < 4:<br>&nbsp;&nbsp;print(i, end=' ')<br>&nbsp;&nbsp;i += 1</code>",
+            "options": ["1 2 3", "1 2 3 4", "Error", "1 2"],
+            "answer": 0
+        },
+        {
+            "questionNo": 25,
+            "question": "What is the purpose of the continue statement in a loop?",
+            "options": ["To terminate the loop", "To skip the rest of the code for the current iteration", "To move to the next loop after terminating the current one", "To raise an error"],
+            "answer": 1
+        },
+        {
+            "questionNo": 26,
+            "question": "How many times will the following loop run?<br><code>for i in range(1, 5):<br>&nbsp;print(i)</code>",
+            "options": ["5", "3", "4", "6"],
+            "answer": 2
+        }
+    ]    
+    },
+    {
+      "heading": "LISTS",
+      "questions": [
+        {
+            "questionNo": 27,
+            "question": "What will be the output of the following code?<br><code>numbers = [45, 15, 35]<br>numbers.append([5, 2])<br>print(numbers)</code>",
+            "options": ["[45, 15, 35, 5, 2]", "[35, 15, 45]", "[45, 15, 35]", "Error"],
+            "answer": 0
+        }
+    ]
+        
+    },
+    {
+      "heading": "TUPLES",
+      "questions": [
+        {
+            "questionNo": 28,
+            "question": "Can tuples contain different data types?",
+            "options": ["Yes", "No"],
+            "answer": 0
+        },
+        {
+            "questionNo": 29,
+            "question": "What is the difference between a list and a tuple?",
+            "options": ["Lists are immutable and tuples are mutable", "Lists can store values of different types and tuples can’t", "Lists are mutable and tuples are immutable", "Values can be accessed by their index in lists but not in tuples."],
+            "answer": 2
+        }
+    ]
+       
+    },
+    {
+      "heading": "DICTIONARIES",
+      "questions": [
+        {
+            "questionNo": 30,
+            "question": "Keys in the dictionary are ______",
+            "options": ["mutable", "immutable"],
+            "answer": 1
+        },
+        {
+            "questionNo": 31,
+            "question": "What is the result of the following code?<br><code>fruit_count = {'apple': 1, 'orange': 2}<br>fruit_count['orange'] = 3<br>print(fruit_count)</code>",
+            "options": ["{'apple': 1, 'orange': 2}", "{'apple': 1, 'orange': 3}", "{'apple': 1, 'orange': 5}", "{'orange': 3, 'apple': 1}"],
+            "answer": 1
+        }
+    ]
+       
+    },
+    {
+      "heading": "SETS",
+      "questions": [
+        {
+            "questionNo": 32,
+            "question": "Can sets have duplicate elements?",
+            "options": ["Yes", "No"],
+            "answer": 1
+        },
+        {
+            "questionNo": 33,
+            "question": "What will the following code output?<br><code>s1 = {1, 2, 3}<br>s2 = {3, 4, 5}<br>print(s1 & s2)</code>",
+            "options": ["{3}", "{1, 2, 3, 4, 5}", "{}", "{1, 2}"],
+            "answer": 0
+        }
+    ]
+        
+    },
+    {
+      "heading": "ITERATING THROUGH ITERABLES",
+      "questions": [
+        {
+            "questionNo": 34,
+            "question": "What will the following code output?<br><code>numbers = [10, 20, 30, 40]<br>for num in numbers:<br>&nbsp;&nbsp;print(num, end=\" \")</code>",
+            "options": ["10 20 30 40", "40 30 20 10", "40", "Error"],
+            "answer": 0
+        },
+        {
+            "questionNo": 35,
+            "question": "What will this code print?<br><code>my_tuple = (1, 2, 3)<br>for val in my_tuple:<br>&nbsp;&nbsp;print(val * 2, end=\" \")</code>",
+            "options": ["2 4 6", "1 2 3", "2 3 4 5 6", "Error"],
+            "answer": 0
+        },
+        {
+            "questionNo": 36,
+            "question": "What is the correct way to iterate through a dictionary?<br><code>fruit_count = {\"apple\": 2, \"orange\": 3}<br>for key in fruit_count:<br>&nbsp;&nbsp;print(key, fruit_count[key])</code>",
+            "options": ["apple orange", "apple 2 orange 3", "apple: 2 orange: 3", "Error"],
+            "answer": 1
+        },
+        {
+            "questionNo": 37,
+            "question": "What will this code print?<br><code>my_set = {1, 2, 3}<br>for item in my_set:<br> &nbsp;print(item, end=\" \")</code>",
+            "options": ["1 2 3", "3 2 1", "Error", "None"],
+            "answer": 0
+        },
+        {
+            "questionNo": 38,
+            "question": "Which of the following iterables cannot be used in a for loop?",
+            "options": ["Lists", "Tuples", "Dictionaries", "None of the above"],
+            "answer": 3
+        }
+    ]
+        
+    },
+    {
+      "heading": "MEMBERSHIP OPERATORS",
+      "questions": [
+        {
+            "questionNo": 39,
+            "question": "What will the following code output?<BR><code>my_list = [1, 2, 3, 4]<br>print(5 in my_list)</code>",
+            "options": ["True", "False", "Error", "None"],
+            "answer": 1
+        },
+        {
+            "questionNo": 40,
+            "question": "What does the not in operator do?",
+            "options": ["Checks if an element exists in a sequence.", "Removes an element from a sequence.", "Checks if an element does not exist in a sequence.", "None of the above."],
+            "answer": 2
+        },
+        {
+            "questionNo": 41,
+            "question": "What will the output of this code be?<BR><code>my_string = \"Python\"<br>print('y' in my_string)</code>",
+            "options": ["True", "False", "Error", "None"],
+            "answer": 0
+        },
+        {
+            "questionNo": 42,
+            "question": "What will this code print?<BR><code>my_dict = {\"key1\": \"value1\", \"key2\": \"value2\"}<br>print(\"key1\" in my_dict)</code>",
+            "options": ["True", "False", "Error", "None"],
+            "answer": 0
+        },
+        {
+            "questionNo": 43,
+            "question": "What will be the result of the following expression?<BR><code>my_set = {1, 2, 3}<br>print(4 not in my_set)</code>",
+            "options": ["True", "False", "Error", "None"],
+            "answer": 0
+        }
+    ]
+    
+        
+    },
+     {
+      "heading": "Project",
+      "questions": [
+        {
+          "questionNo": 1,
+          "question": "</ol> 👉 <a href='https://colab.research.google.com/drive/1RUe9qER1QuV8yKexUDyz0ht5hMTIH--Q?usp=sharing' target='_blank' class='button'>Click To Open Project</a> "
+         
+        }
+      ]
+    }
+  ]
+}
